@@ -1,0 +1,82 @@
+PUEDES MIRAR EL PROYECTO EN NETLIFY 
+Y SU CODIGO EN GITHUB 
+
+# WebPro Tools - Landing Page
+
+Esta es una landing page interactiva y optimizada para SEO, creada para promover el producto ficticio "WebPro Tools". La página incluye un menú de navegación, una sección de características, un formulario de suscripción, y un pie de página con enlaces a redes sociales.
+
+## Estructura del Proyecto
+
+El proyecto está organizado en las siguientes carpetas:
+
+
+
+
+## Requisitos
+
+- Editor de texto o IDE de tu preferencia.
+- Navegador web moderno.
+- Conexión a internet para cargar recursos de Bootstrap y Boxicons.
+
+## Instrucciones
+
+1. **Clonar el Repositorio**
+
+   Clona este repositorio en tu máquina local usando:
+
+   ```bash
+   git clone https://tu-repositorio-git-url.git
+
+
+
+Abrir el Proyecto
+
+Navega a la carpeta del proyecto y abre el archivo index.html en tu navegador web.
+
+Estructura y Contenido
+
+La landing page está dividida en varias secciones:
+
+Menú de Navegación: En la parte superior, con enlaces a "Inicio", "Características", y "Contacto". El menú es responsivo, interactivo, y pegajoso (sticky).
+
+Sección Principal: Contiene un banner con una imagen, título, y subtítulo llamativos.
+
+Características: Una lista de tres características clave del producto "WebPro Tools".
+
+Formulario de Suscripción: Un formulario para que los usuarios se suscriban ingresando su correo electrónico.
+
+Pie de Página: Enlaces a redes sociales.
+
+Estilos y Diseño
+
+Los estilos están definidos en los archivos CSS ubicados en assets/css/. La página es visualmente atractiva y responsive, con un diseño moderno y minimalista.
+
+Interactividad (JavaScript)
+
+La funcionalidad interactiva está implementada en el archivo main.js ubicado en assets/js/. Esto incluye:
+
+Validación del Formulario: Asegura que el campo de correo electrónico no esté vacío y tenga un formato válido antes de enviar.
+
+Transición Suave: Los enlaces del menú navegan a las secciones correspondientes con un efecto de scroll suave.
+
+Botón "Ir Arriba": Aparece cuando el usuario hace scroll hacia abajo y permite volver a la parte superior con una transición suave.
+
+Meta Datos y SEO
+Meta Título: WebPro Tools - Herramientas en Colombia
+
+Meta Descripción: WebPro Tools es una tienda de herramientas online en Colombia, ofreciendo una amplia variedad de productos de calidad para profesionales y aficionados a las herramientas.
+
+Etiquetas ALT: Todas las imágenes incluyen etiquetas ALT descriptivas.
+
+URL Amigable: https://tupagina.com/webpro-tools
+
+Meta Robots: <meta name="robots" content="index, follow">
+
+Contribuciones
+Si deseas contribuir a este proyecto, siéntete libre de hacer un fork y enviar un pull request. Agradecemos tus sugerencias y mejoras.
+
+Licencia
+Este proyecto está bajo la Licencia INCCA. Puedes encontrar más detalles en el archivo LICENSE.
+
+¡Gracias por visitar "WebPro Tools"! Esperamos que encuentres útil esta landing page y disfrutes de la experiencia.
+

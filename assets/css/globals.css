@@ -1,0 +1,112 @@
+:root {
+    --color-sub_menu1: #F9A825;  
+    --color-letter-text: #ffffff; 
+    --color-brand: #FFB300;  
+    --color-bottom: #F57F17; 
+    --color-hover: #FBC02D;  
+    --color-superposition: #FF6F00; 
+    --fondo-color: #001925;;
+
+}
+
+/* TAMAÑO DE FUENTES */
+:root{
+    --list-content: font-size: 30px;
+    --weight--list: font-weight: 500;
+}
+
+
+h1{
+    font-size: 35px;
+    font-weight: 600;
+    font-family: "DM Sans", serif;
+}
+
+h2{
+    color: var(--color-bottom);
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "DM Sans", serif;
+
+}
+
+h3{
+    font-size: 28px;
+    font-weight: 500;
+    font-family: "DM Sans", serif;
+}
+
+h4{
+    font-size: 25px;
+    font-weight: 400;
+    font-family: "DM Sans", serif;
+}
+
+h5{
+    font-size: 25px;
+    font-weight: 400;
+    font-family: "DM Sans", serif;
+}
+
+h6{
+    font-size: 25px;
+    font-weight: 400;
+    font-family: "DM Sans", serif;
+}
+
+span{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "DM Sans", serif;
+}
+
+p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "DM Sans", serif;
+}
+
+
+@media (width >= 700px) {
+
+    h1{
+        font-size: 25px;
+        font-weight: 600;
+    }
+    
+    h2{
+        font-size: 23px;
+        font-weight: 600;
+    }
+    
+    h3{
+        font-size: 18px;
+        font-weight: 500;
+    }
+    
+    h4{
+        font-size: 18px;
+        font-weight: 400;
+    }
+    
+    h5{
+        font-size: 18px;
+        font-weight: 400;
+    }
+    
+    h6{
+        font-size: 18px;
+        font-weight: 400;
+    }
+    
+    span{
+        font-size: 16px;
+        font-weight: 400;
+    }
+    
+    p{
+        font-size: 16px;
+        font-weight: 400;
+    }
+    
+}
