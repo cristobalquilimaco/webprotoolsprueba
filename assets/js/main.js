@@ -42,3 +42,29 @@ document.addEventListener("DOMContentLoaded", function() {
         }, 3000);
     }
 });
+
+
+
+// ANIMATION SCROLL
+
+
+document.addEventListener("DOMContentLoaded", () =>{
+    const cards = document.querySelectorAll(".animate-on-scroll");
+
+    const checkVisibility = () =>{
+        cards.forEach(card =>{
+            const cardTop = card.getBoundingClientRect().top;
+            const cardBotom = card.getBoundingClientRect().bottom;
+
+            if(cardTop < window.innerHeight && cardBotom > 0){
+                card.classList.add("visible");
+            }else{
+                card.classList.remove("visible")
+            };
+        });
+    };
+    window.addEventListener("scroll", checkVisibility)
+    window.addEventListener("resize", checkVisibility)
+
+    checkVisibility()
+});

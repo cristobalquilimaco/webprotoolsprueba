@@ -3,6 +3,13 @@
 * {
     box-sizing: border-box;
 }
+
+@font-face {
+    font-family: 'MiFuente';
+    src: url('mi-fuente.woff2') format('woff2');
+    font-display: swap;
+}
+
 html {
     font-family: "DM Sans", serif;
 }

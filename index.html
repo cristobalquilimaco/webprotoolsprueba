@@ -10,30 +10,61 @@
         <meta property="og:description" content="Compra herramientas en Colombia. Encuentra los mejores productos para tus proyectos en WebPro Tools. Envíos a todo el país.">
         <meta property="og:type" content="website">
         <meta property="og:url" content="https://www.webprotools.com">
-        <meta property="og:image" content="url-de-imagen-para-social-media.jpg"> <!-- Si tienes imagen para compartir -->
-        
-        <!-- STILES -->
+        <meta property="og:image" content="url-de-imagen-para-social-media.jpg">
+    
+        <title>WebPro Tools - Herramientas en Colombia</title>
+    
+        <!-- CSS Crítico en Línea -->
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #f4f4f4;
+            }
+            .navbar {
+                background-color: #343a40;
+                color: white;
+            }
+        </style>
+    
+        <!-- Hojas de Estilo No Críticas -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" media="print" onload="this.media='all'">
+        <noscript>
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+        </noscript>
+    
+        <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" media="print" onload="this.media='all'">
+        <noscript>
+            <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+        </noscript>
+    
         <link rel="stylesheet" href="/assets/css/styles.css" media="print" onload="this.media='all'">
+        <noscript>
+            <link rel="stylesheet" href="/assets/css/styles.css" media="print" onload="this.media='all'">
+        </noscript>
+    
         <link rel="stylesheet" href="/assets/css/globals.css" media="print" onload="this.media='all'">
+        <noscript>
+            <link rel="stylesheet" href="/assets/css/globals.css">
+        </noscript>
+    
         <link rel="stylesheet" href="/assets/css/resets.css" media="print" onload="this.media='all'">
-        
-
-        <!-- Bootstrap CSS -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-
-
-        <!-- JAVASCRIPT -->
-        <script src="/assets/js/main.js" defer></script>
-        <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
-
-        
+        <noscript>
+            <link rel="stylesheet" href="/assets/css/resets.css">
+        </noscript>
+    
         <!-- Scripts de Bootstrap y Popper.js con defer -->
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous" defer></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous" defer></script>
         
-        <title>WebPro Tools - Herramientas en Colombia</title>
+        <!-- Boxicons JavaScript -->
+        <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js" defer></script>
+        
+        <!-- JavaScript Principal -->
+        <script src="/assets/js/main.js" defer></script>
     </head>
+    
 <body>
     <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
@@ -59,42 +90,40 @@
           </div>
         </div>
       </nav>
-      
-      
         <header class="principal-banner">
-            <img class="banner-img" src="/assets/images/herramientas-en-colombia-de-calidad.webp"  alt="herramientas en colombia de calidad">
+            <img class="banner-img" src="/assets/images/herramientas-en-colombia-de-calidad.webp" alt="herramientas en colombia de calidad" loading="lazy">
             <h1 class="principal-title">Herramientas en Colombia De Alta Calidad</h1>
             <h2 class="banner-subtitle">WebPro Tools: El Mejor Distribuidor de Herramientas en Colombia</h2>
             <p class="text-info-banner">Encuentra Las mejores herramientas de marcas reconocidas en WebPro Tools</p>
         </header>
-        <div class="features-container">
+        <div class="features-container" id="caracteristicas">
             <h2>Porque Comprar Herramientas en Colombia Con WebPro Tools</h2>
             <p>En WebPro Tools, encontrarás una amplia gama de herramientas de calidad para profesionales y aficionados en Colombia. Nos destacamos por ofrecer productos duraderos, con garantía, a precios competitivos y con envío rápido a todo el país. </p>
             <section class="features-section">
-                <div class="features-card">
+                <div class="features-card animate-on-scroll">
                     <h3>Calidad <br>Garantizada</h3>
                     <p>Herramientas de marcas confiables para asegurar durabilidad y alto rendimiento en tus proyectos.</p>
                 </div>
-                <div class="features-card">
+                <div class="features-card animate-on-scroll">
                     <h3>Envíos Rápidos a Toda Colombia</h3>
                     <p>Recibe tus herramientas rápidamente con nuestro servicio de envío eficiente a todo el país.</p>
                 </div>
-                <div class="features-card" id="aracterísticas">
+                <div class="features-card animate-on-scroll" >
                     <h3>Precios Competitivos</h3>
                     <p>Accede a productos de calidad a precios accesibles, ideales para cualquier presupuesto.</p>
                 </div>
             </section>
         </div>
-        <section class="form-title-section">
+        <section class="form-title-section animate-on-scroll">
             <h2>Enterate de las nuevas Herramientas Que llegan a Colombia</h2>
             <h3>Registrate Para Que Recibas Nuevas Noticias</h3>
         </section>
         <div class="principal-form-container">
             <div class="image-container">
-                <img class="image-taladro" src="/assets/images/taladros-en-colombia-de-webpro-tools.webp" alt="taladros en colombia">
+                <img class="image-taladro" src="/assets/images/taladros-en-colombia-de-webpro-tools.webp" alt="Taladro" width="600" height="400" loading="lazy">
             </div>
             <div class="form-container" id="contacto">
-                <div class="form">
+                <div class="form animate-on-scroll">
                     <span class="heading">Conoce más de Nuestras Herramientas</span>
                     <span class="c1">Suscríbete para más información</span>
                     <input class="input" type="text" placeholder="Email" required />
